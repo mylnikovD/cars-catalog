@@ -1,0 +1,34 @@
+.card {
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px black;
+  border-radius: 5px;
+  text-align: left;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+  }
+  &-kenya {
+    background-color: burlywood;
+  }
+  &-china {
+    background-color: yellow;
+  }
+  &-russia {
+    background-color: rgba(255, 0, 0, 0.7);
+  }
+  &-uzbekistan {
+    background-color: rgba(0, 225, 255, 0.7);
+  }
+  &-syria {
+    background-color: rgba(25, 102, 25, 0.7);
+  }
+  &-croatia {
+    background-color: rgba(0, 0, 255, 0.7);
+  }
+  &-philippines {
+    background-color: rgba(66, 33, 141, 0.7);
+  }
+}

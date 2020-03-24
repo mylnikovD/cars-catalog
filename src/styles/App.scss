@@ -1,0 +1,18 @@
+@import 'catalog';
+@import 'card';
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  box-sizing: border-box;
+  min-height: 5vh;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
