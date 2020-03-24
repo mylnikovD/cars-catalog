@@ -8,7 +8,6 @@ function Catalog(props) {
   const { dispatch, cars } = props;
 
   const [carsToDisplay, setCarsToDisplay] = useState([]);
-  const [searchValue, setSearchValue] = useState('');
 
   const filterData = value => {
     console.log('IM WORKInG');
@@ -40,8 +39,6 @@ function Catalog(props) {
   const inputHandler = e => {
     debouncedFilter(e.target.value);
   };
-
-  console.log(carsToDisplay);
 
   return (
     <>
